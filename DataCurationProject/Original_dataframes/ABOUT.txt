@@ -1,0 +1,6 @@
+These dataframes aren't exactly the original from the movieLens dataset. We decided to synthetically add ambiguity in some of the .csv in order to make the integration process
+more realistic, this was done in changing the way the foreign keys were being represented.
+	EXAMPLE
+	In ratings, userId is an integer (1, 2, 3...) and movieId as well.
+	In movies, userId is a string (userId 1, userId 2 ...)
+	In tags userId and movieId are combined in one column in the form of: "userId|movieId" (String)
